@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: Print Name
         run: echo 'Devansh Popli'
+      - name: Multiple commands
+        run: |
+            echo "Line1"
+            echo "Line2"
