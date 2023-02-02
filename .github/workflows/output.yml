@@ -1,0 +1,8 @@
+name: Output Expressions
+on: push
+jobs:
+  outputs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output github expression
+        run: echo "${{ toJSON(github) }}"
